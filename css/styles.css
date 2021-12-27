@@ -1,0 +1,10 @@
+body {
+    background-color: #F2A5C5;
+}
+
+/* Navbar - Logo original size 774x460 */
+
+#brand-logo {
+    width: 150px;
+    /* height: 200; */
+}
