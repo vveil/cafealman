@@ -12,3 +12,19 @@ nav {
     width: 150px;
     /* height: 200; */
 }
+
+/* Custom body styles */
+#sexInput {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+#geschlechtDropdown {
+    /* padding-left: 0; */
+    margin-left: 0;
+}
+
+#geschlechtDropdownDiv {
+    padding: 0;
+    margin-left: 0;
+}
