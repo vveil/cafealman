@@ -14,7 +14,7 @@
     />
 
     <!-- own styles -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
 
     <title>Dr. Alman</title>
   </head>
@@ -37,12 +37,14 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         > -->
-          <!-- <span class="navbar-toggler-icon"></span> -->
+        <!-- <span class="navbar-toggler-icon"></span> -->
         <!-- </button> -->
         <div class="justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Doktoren-Login</a>
+              <a class="nav-link" aria-current="page" href="#"
+                >Doktoren-Login</a
+              >
             </li>
           </ul>
         </div>
@@ -50,7 +52,60 @@
     </nav>
 
     <!-- Form-Section -->
-
+    <!-- <div class="d-flex justify-content-center"> -->
+    <div class="row">
+      <div class="col-md-3 col-sm-2"></div>
+      <div class="col-md-6 col-sm-8">
+        <form>
+          <div class="mb-3">
+            <label for="nameInput" class="form-label">Name</label>
+            <input type="text" class="form-control" id="nameInput" />
+          </div>
+          <!-- 
+            aria-describedby="emailHelp"  
+            <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div> -->
+          <div class="mb-3">
+            <label for="ageInput" class="form-label">Alter</label>
+            <input type="number" class="form-control" id="ageInput" />
+          </div>
+          <div class="mb-3">
+            <label for="sexInput" class="form-label">Sexualität</label>
+            <input type="text" class="form-control" id="sexInput" />
+          </div>
+          <div class="mb-3">
+            <label class="form-label" for="questionInput">Frage/Story</label>
+            <br />
+            <textarea
+              name="question"
+              class="form-control"
+              id="questionInput"
+              cols="60"
+              rows="4"
+            ></textarea>
+          </div>
+          <!-- Datenschutz-Checkbox -->
+          <div class="mb-3 form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              id="exampleCheck1"
+            />
+            <label class="form-check-label" for="exampleCheck1"
+              >Ich habe die <a href="">Datenschutzerklärung</a> gelesen und
+              akzeptiere diese vollständig.</label
+            >
+          </div>
+          <!-- <div class="text-right"> -->
+            <button type="submit" class="btn col-lg-4 btn-primary float-end">
+              Absenden
+            </button>
+          <!-- </div> -->
+        </form>
+      </div>
+      <div class="col-md-3 col-sm-2"></div>
+    </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

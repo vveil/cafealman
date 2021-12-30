@@ -4,6 +4,10 @@ body {
 
 /* Navbar - Logo original size 774x460 */
 
+nav {
+    padding: 0% 10%;
+}
+
 #brand-logo {
     width: 150px;
     /* height: 200; */
